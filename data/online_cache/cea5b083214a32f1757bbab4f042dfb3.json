@@ -1,0 +1,72 @@
+{
+  "timestamp": 1755048859.805494,
+  "papers": [
+    {
+      "id": "d6b6c9c58236e06fe1dfda61f0d5d8be04775852",
+      "title": "An Overview of Compiler Based Cache Optimization Techniques",
+      "summary": "Cache plays an important role in computer architecture. It provides data and instruction at a faster rate to increase the utilization of CPU. This paper comprises of concepts related to the memory hierarchy, cache memory, its organization and various techniques used to optimize cache to increase the performance of CPU. Computer architecture uses memory hierarchy to deal with the low memory bandwidth and latency of main memory access, at the end of this paper we are aware of cache and its various compiler based optimization in cache.",
+      "pdf_url": "https://www.semanticscholar.org/paper/d6b6c9c58236e06fe1dfda61f0d5d8be04775852",
+      "year": 2016,
+      "authors": [
+        "V. K. Gautam",
+        "Dr. P K Singh"
+      ],
+      "source": "semantic_scholar",
+      "text": "Cache plays an important role in computer architecture. It provides data and instruction at a faster rate to increase the utilization of CPU. This paper comprises of concepts related to the memory hierarchy, cache memory, its organization and various techniques used to optimize cache to increase the performance of CPU. Computer architecture uses memory hierarchy to deal with the low memory bandwidth and latency of main memory access, at the end of this paper we are aware of cache and its various compiler based optimization in cache."
+    },
+    {
+      "id": "13ae2474a7a92b46d9d19759320ae4b087f65215",
+      "title": "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/13ae2474a7a92b46d9d19759320ae4b087f65215",
+      "year": 2024,
+      "authors": [
+        "Xiaoyang Lu",
+        "Hamed Najafi",
+        "Jason Liu",
+        "Xian-He Sun"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "52419012f7e5a430ed030bc03534de8d3608ee4a",
+      "title": "Code Layout Optimization for Near-Ideal Instruction Cache",
+      "summary": "Instruction cache misses are a significant source of performance degradation in server workloads because of their large instruction footprints and complex control flow. Due to the importance of reducing the number of instruction cache misses, there has been a myriad of proposals for hardware instruction prefetchers in the past two decades. While effectual, state-of-the-art hardware instruction prefetchers either impose considerable storage overhead or require significant changes in the frontend of a processor. Unlike hardware instruction prefetchers, code-layout optimization techniques profile a program and then reorder the code layout of the program to increase spatial locality, and hence, reduce the number of instruction cache misses. While an active area of research in the 1990s, code-layout optimization techniques have largely been neglected in the past decade. We evaluate the suitability of code-layout optimization techniques for modern server workloads and show that if we combine these techniques with a simple next-line prefetcher, they can significantly reduce the number of instruction cache misses. Moreover, we propose a new code-layout optimization algorithm and show that along with a next-line prefetcher, it offers the same performance improvement as the state-of-the-art hardware instruction prefetcher, but with almost no hardware overhead.",
+      "pdf_url": "https://www.semanticscholar.org/paper/52419012f7e5a430ed030bc03534de8d3608ee4a",
+      "year": 2019,
+      "authors": [
+        "Ali Ansari",
+        "Pejman Lotfi-Kamran",
+        "H. Sarbazi-Azad"
+      ],
+      "source": "semantic_scholar",
+      "text": "Instruction cache misses are a significant source of performance degradation in server workloads because of their large instruction footprints and complex control flow. Due to the importance of reducing the number of instruction cache misses, there has been a myriad of proposals for hardware instruction prefetchers in the past two decades. While effectual, state-of-the-art hardware instruction prefetchers either impose considerable storage overhead or require significant changes in the frontend of a processor. Unlike hardware instruction prefetchers, code-layout optimization techniques profile a program and then reorder the code layout of the program to increase spatial locality, and hence, reduce the number of instruction cache misses. While an active area of research in the 1990s, code-layout optimization techniques have largely been neglected in the past decade. We evaluate the suitability of code-layout optimization techniques for modern server workloads and show that if we combine these techniques with a simple next-line prefetcher, they can significantly reduce the number of instruction cache misses. Moreover, we propose a new code-layout optimization algorithm and show that along with a next-line prefetcher, it offers the same performance improvement as the state-of-the-art hardware instruction prefetcher, but with almost no hardware overhead."
+    },
+    {
+      "id": "9cb7acdded3cdffb13e33f6757004f3e42167d39",
+      "title": "FlushTime: Towards Mitigating Flush-based Cache Attacks via Collaborating Flush Instructions and Timers on ARMv8-A",
+      "summary": "ARMv8-A processors generally utilize optimization techniques such as multi-layer cache, out-of-order execution and branch prediction to improve performance. These optimization techniques are inevitably threatened by cache-related attacks including Flush+Reload, Flush+Flush, Meltdown, Spectre, and their variants. These attacks can break the isolation boundaries between different processes or even between user and kernel spaces. Researchers proposed many defense schemes to resist these cache-related attacks. However, they either need to modify the hardware architecture, have incomplete coverage, or introduce significant performance overhead. In this paper, we propose FlushTime, a more secure collaborative framework of cache flush instructions and generic timer on ARMv8-A. Based on the instruction/register trap mechanism of ARMv8-A, FlushTime traps cache flush instructions and generic timer from user space into kernel space, and makes them cooperate with each other in kernel space. When a flush instruction is called, the generic timer resolution will be reduced for several time slices. This collaborative mechanism can greatly mitigate the threat of all flush-based cache-related attacks. Since normal applications rarely need to obtain high resolution timestamps immediately after calling a flush instruction, FlushTime does not affect the normal operation of the system. Security and performance evaluations show that FlushTime can resist all flush-based cache-related attacks while introducing an extremely low performance overhead.",
+      "pdf_url": "https://www.semanticscholar.org/paper/9cb7acdded3cdffb13e33f6757004f3e42167d39",
+      "year": 2023,
+      "authors": [
+        "Jingquan Ge",
+        "Fengwei Zhang"
+      ],
+      "source": "semantic_scholar",
+      "text": "ARMv8-A processors generally utilize optimization techniques such as multi-layer cache, out-of-order execution and branch prediction to improve performance. These optimization techniques are inevitably threatened by cache-related attacks including Flush+Reload, Flush+Flush, Meltdown, Spectre, and their variants. These attacks can break the isolation boundaries between different processes or even between user and kernel spaces. Researchers proposed many defense schemes to resist these cache-related attacks. However, they either need to modify the hardware architecture, have incomplete coverage, or introduce significant performance overhead. In this paper, we propose FlushTime, a more secure collaborative framework of cache flush instructions and generic timer on ARMv8-A. Based on the instruction/register trap mechanism of ARMv8-A, FlushTime traps cache flush instructions and generic timer from user space into kernel space, and makes them cooperate with each other in kernel space. When a flush instruction is called, the generic timer resolution will be reduced for several time slices. This collaborative mechanism can greatly mitigate the threat of all flush-based cache-related attacks. Since normal applications rarely need to obtain high resolution timestamps immediately after calling a flush instruction, FlushTime does not affect the normal operation of the system. Security and performance evaluations show that FlushTime can resist all flush-based cache-related attacks while introducing an extremely low performance overhead."
+    },
+    {
+      "id": "881afea3c3fc62ae699ac40c934a9000e10eebda",
+      "title": "Accelerating Code Assembly: Exploiting Heterogeneous Computing Architectures for Optimization",
+      "summary": "Amid rapid technological advancements, the efficient optimization of software code assembly and compilation is paramount to the swift and reliable functioning of high-performance computing systems. This study investigates the potential for boosting code assembly speed by exploiting various computing architectures. The adopted methodology encompasses system analysis, examination of diverse computer system architectures, and the application of optimization and resource management techniques to enhance the assembly and compilation of program codes effectively. The paper delves into the evolution of computer architecture and underscores the importance of machine code, elucidating their impacts on IT development. Key areas of study include mobile object tracking, cache memory-based architectures, and GPU inference mechanisms for neural networks. The criticality of expertise, security, and contextual understanding when adopting these technologies is also emphasized. The findings from this study could catalyze the inception of novel code assembly technologies, thereby optimizing computing efficiency and expediting software development. Consequently, these advancements could diminish the time required for program creation and launch, thereby elevating industry productivity. The practical significance of this research stems from its potential application in accelerating code assembly.",
+      "pdf_url": "https://www.semanticscholar.org/paper/881afea3c3fc62ae699ac40c934a9000e10eebda",
+      "year": 2023,
+      "authors": [
+        "Maksym Karyonov"
+      ],
+      "source": "semantic_scholar",
+      "text": "Amid rapid technological advancements, the efficient optimization of software code assembly and compilation is paramount to the swift and reliable functioning of high-performance computing systems. This study investigates the potential for boosting code assembly speed by exploiting various computing architectures. The adopted methodology encompasses system analysis, examination of diverse computer system architectures, and the application of optimization and resource management techniques to enhance the assembly and compilation of program codes effectively. The paper delves into the evolution of computer architecture and underscores the importance of machine code, elucidating their impacts on IT development. Key areas of study include mobile object tracking, cache memory-based architectures, and GPU inference mechanisms for neural networks. The criticality of expertise, security, and contextual understanding when adopting these technologies is also emphasized. The findings from this study could catalyze the inception of novel code assembly technologies, thereby optimizing computing efficiency and expediting software development. Consequently, these advancements could diminish the time required for program creation and launch, thereby elevating industry productivity. The practical significance of this research stems from its potential application in accelerating code assembly."
+    }
+  ]
+}

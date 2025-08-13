@@ -1,0 +1,77 @@
+{
+  "timestamp": 1755048976.5627992,
+  "papers": [
+    {
+      "id": "affdba3abf9d22a52725400dc2cf8a846846b34b",
+      "title": "Cache Improvement Based on Routing Protocol for Ad-Hoc Networks: Systematic Literature Review",
+      "summary": "This systematic literature review critically examines the current state of cache improvement strategies in the routing protocol for Ad-Hoc Networks. Despite the growing significance of routing protocols in facilitating dynamic communication in decentralized networks, they might face substantial challenges regarding cache management, directly impacting network efficiency and performance. This review aims to consolidate existing research findings, identify best practices, and highlight gaps in the literature that warrant further investigation. The methodology for this review involved a comprehensive search across multiple academic databases, employing specific keywords related to routing protocols such as Ad-Hoc Networks, caching, and Ad-Hoc Networks. Studies were selected based on predetermined inclusion and exclusion criteria, ensuring relevance and quality. The review process emphasized peer-reviewed articles, conference papers, and significant technical reports published in the last decade. Key findings indicate a diverse range of caching strategies, each with unique implications for network performance, scalability, and energy efficiency. This review reveals that while some strategies significantly enhance the efficiency of cache usage in routing, others offer improvements in managing network resources and adapting to dynamic network topologies. The analysis also uncovers a critical gap in research related to the security implications of caching strategies in routing protocols and their impact on energy consumption in mobile nodes. This review\u2019s findings are significant for researchers and practitioners in the field, providing a consolidated resource on routing cache improvement strategies and identifying fruitful avenues for future research. It underscores the need for more comprehensive studies addressing the balance between caching efficiency, resource management, and security in Ad-Hoc Networks. The implications of these findings extend beyond academic interest, offering practical insights for developing and enhancing more robust, efficient, and secure Ad-Hoc Networks using routing protocols.",
+      "pdf_url": "https://www.semanticscholar.org/paper/affdba3abf9d22a52725400dc2cf8a846846b34b",
+      "year": 2024,
+      "authors": [
+        "Ammar Kareem Obaid",
+        "Mohd Ezanee Bin Rusli",
+        "Salman Yussof"
+      ],
+      "source": "semantic_scholar",
+      "text": "This systematic literature review critically examines the current state of cache improvement strategies in the routing protocol for Ad-Hoc Networks. Despite the growing significance of routing protocols in facilitating dynamic communication in decentralized networks, they might face substantial challenges regarding cache management, directly impacting network efficiency and performance. This review aims to consolidate existing research findings, identify best practices, and highlight gaps in the literature that warrant further investigation. The methodology for this review involved a comprehensive search across multiple academic databases, employing specific keywords related to routing protocols such as Ad-Hoc Networks, caching, and Ad-Hoc Networks. Studies were selected based on predetermined inclusion and exclusion criteria, ensuring relevance and quality. The review process emphasized peer-reviewed articles, conference papers, and significant technical reports published in the last decade. Key findings indicate a diverse range of caching strategies, each with unique implications for network performance, scalability, and energy efficiency. This review reveals that while some strategies significantly enhance the efficiency of cache usage in routing, others offer improvements in managing network resources and adapting to dynamic network topologies. The analysis also uncovers a critical gap in research related to the security implications of caching strategies in routing protocols and their impact on energy consumption in mobile nodes. This review\u2019s findings are significant for researchers and practitioners in the field, providing a consolidated resource on routing cache improvement strategies and identifying fruitful avenues for future research. It underscores the need for more comprehensive studies addressing the balance between caching efficiency, resource management, and security in Ad-Hoc Networks. The implications of these findings extend beyond academic interest, offering practical insights for developing and enhancing more robust, efficient, and secure Ad-Hoc Networks using routing protocols."
+    },
+    {
+      "id": "d76eb5f8b378d28b429d32251425f67da210a774",
+      "title": "Distinction of Modern Cache Configurations : SRAM , STT-RAM , and eDRAM Memory Performance Enhancement with Energy and Design Efficiency Analysis",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/d76eb5f8b378d28b429d32251425f67da210a774",
+      "year": 2016,
+      "authors": [
+        "Sanjay Khemlani"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "1cb7d1b3226d0a2fc77e54dee596a7a2d6d098d5",
+      "title": "Communist, Utilitarian, and Capitalist cache policies on CMPs: Caches as a shared resource",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/1cb7d1b3226d0a2fc77e54dee596a7a2d6d098d5",
+      "year": 2006,
+      "authors": [
+        "Lisa R. Hsu",
+        "S. Reinhardt",
+        "R. Iyer",
+        "S. Makineni"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "5dd2fa65d4e67416e6f004624137125bc27eef2c",
+      "title": "A 6 GHz, 16 Kbytes L1 cache in a 100 nm dual-V/sub T/ technology using a bitline leakage reduction (BLR) technique",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/5dd2fa65d4e67416e6f004624137125bc27eef2c",
+      "year": 2002,
+      "authors": [
+        "Y. Ye",
+        "M. Khellah",
+        "D. Somasekhar",
+        "A. Farhang",
+        "V. De"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "a40ad66185d222157466374811f375a88abdddf6",
+      "title": "Potential benefits of delta encoding and data compression for HTTP",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/a40ad66185d222157466374811f375a88abdddf6",
+      "year": 1997,
+      "authors": [
+        "J. Mogul",
+        "F. Douglis",
+        "A. Feldmann",
+        "B. Krishnamurthy"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    }
+  ]
+}

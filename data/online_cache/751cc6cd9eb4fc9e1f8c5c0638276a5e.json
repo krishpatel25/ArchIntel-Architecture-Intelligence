@@ -1,0 +1,60 @@
+{
+  "timestamp": 1755048864.579198,
+  "papers": [
+    {
+      "id": "2103.00266v1",
+      "title": "Acceleration of probabilistic reasoning through custom processor\n  architecture",
+      "summary": "Probabilistic reasoning is an essential tool for robust decision-making\nsystems because of its ability to explicitly handle real-world uncertainty,\nconstraints and causal relations. Consequently, researchers are developing\nhybrid models by combining Deep Learning with probabilistic reasoning for\nsafety-critical applications like self-driving vehicles, autonomous drones,\netc. However, probabilistic reasoning kernels do not execute efficiently on\nCPUs or GPUs. This paper, therefore, proposes a custom programmable processor\nto accelerate sum-product networks, an important probabilistic reasoning\nexecution kernel. The processor has an optimized datapath architecture and\nmemory hierarchy optimized for sum-product networks execution. Experimental\nresults show that the processor, while requiring fewer computational and memory\nunits, achieves a 12x throughput benefit over the Nvidia Jetson TX2 embedded\nGPU platform.",
+      "pdf_url": "https://arxiv.org/pdf/2103.00266v1.pdf",
+      "source": "arxiv",
+      "text": "Probabilistic reasoning is an essential tool for robust decision-making\nsystems because of its ability to explicitly handle real-world uncertainty,\nconstraints and causal relations. Consequently, researchers are developing\nhybrid models by combining Deep Learning with probabilistic reasoning for\nsafety-critical applications like self-driving vehicles, autonomous drones,\netc. However, probabilistic reasoning kernels do not execute efficiently on\nCPUs or GPUs. This paper, therefore, proposes a custom programmable processor\nto accelerate sum-product networks, an important probabilistic reasoning\nexecution kernel. The processor has an optimized datapath architecture and\nmemory hierarchy optimized for sum-product networks execution. Experimental\nresults show that the processor, while requiring fewer computational and memory\nunits, achieves a 12x throughput benefit over the Nvidia Jetson TX2 embedded\nGPU platform."
+    },
+    {
+      "id": "0710.4658v1",
+      "title": "Compositional Memory Systems for Multimedia Communicating Tasks",
+      "summary": "Conventional cache models are not suited for real-time parallel processing\nbecause tasks may flush each other's data out of the cache in an unpredictable\nmanner. In this way the system is not compositional so the overall performance\nis difficult to predict and the integration of new tasks expensive. This paper\nproposes a new method that imposes compositionality to the system?s performance\nand makes different memory hierarchy optimizations possible for multimedia\ncommunicating tasks when running on embedded multiprocessor architectures. The\nmethod is based on a cache allocation strategy that assigns sets of the unified\ncache exclusively to tasks and to the communication buffers. We also\nanalytically formulate the problem and describe a method to compute the cache\npartitioning ratio for optimizing the throughput and the consumed power. When\napplied to a multiprocessor with memory hierarchy our technique delivers also\nperformance gain. Compared to the shared cache case, for an application\nconsisting of two jpeg decoders and one edge detection algorithm 5 times less\nmisses are experienced and for an mpeg2 decoder 6.5 times less misses are\nexperienced.",
+      "pdf_url": "https://arxiv.org/pdf/0710.4658v1.pdf",
+      "source": "arxiv",
+      "text": "Conventional cache models are not suited for real-time parallel processing\nbecause tasks may flush each other's data out of the cache in an unpredictable\nmanner. In this way the system is not compositional so the overall performance\nis difficult to predict and the integration of new tasks expensive. This paper\nproposes a new method that imposes compositionality to the system?s performance\nand makes different memory hierarchy optimizations possible for multimedia\ncommunicating tasks when running on embedded multiprocessor architectures. The\nmethod is based on a cache allocation strategy that assigns sets of the unified\ncache exclusively to tasks and to the communication buffers. We also\nanalytically formulate the problem and describe a method to compute the cache\npartitioning ratio for optimizing the throughput and the consumed power. When\napplied to a multiprocessor with memory hierarchy our technique delivers also\nperformance gain. Compared to the shared cache case, for an application\nconsisting of two jpeg decoders and one edge detection algorithm 5 times less\nmisses are experienced and for an mpeg2 decoder 6.5 times less misses are\nexperienced."
+    },
+    {
+      "id": "e84ee9d9b35bc5313c1beb3f603cd02e63aded37",
+      "title": "High-Performance Computing Architectures: Memory Hierarchy Optimization Strategi",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/e84ee9d9b35bc5313c1beb3f603cd02e63aded37",
+      "year": 2024,
+      "authors": [
+        "Nar mada"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "28385a43a0ee1881aaf039c0f9ac3283a5026cc9",
+      "title": "Memory Hierarchy Optimization Strategies for HighPerformance Computing Architectures",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/28385a43a0ee1881aaf039c0f9ac3283a5026cc9",
+      "year": 2023,
+      "authors": [
+        "Krunali Patel"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "0adbfdd00e2dbafa84079ca80d7ca52e95c1ad66",
+      "title": "Specific read only data management for memory hierarchy optimization",
+      "summary": "The multiplication of the number of cores inside embedded systems has raised the pressure on the memory hierarchy. The cost of coherence protocol and the scalability problem of the memory hierarchy is nowadays a major issue. In this paper, a specific data management for read-only data is investigated because these data can be duplicated in several memories without being tracked. Based on analysis of standard benchmarks for embedded systems, this analysis shows that read-only data represent 62% of all the data used by applications and 18% of all the memory accesses. A specific data path for read-only data is then evaluated by using simulations. On the first level of the memory hierarchy, removing read-only data of the L1 cache and placing them in another read-only cache improve the data locality of the read-write data by 30% and decrease the total energy consumption of the first level memory by 5%.",
+      "pdf_url": "https://www.semanticscholar.org/paper/0adbfdd00e2dbafa84079ca80d7ca52e95c1ad66",
+      "year": 2015,
+      "authors": [
+        "Gregory Vaumourin",
+        "T. Dombek",
+        "Alexandre Guerre",
+        "Denis Barthou"
+      ],
+      "source": "semantic_scholar",
+      "text": "The multiplication of the number of cores inside embedded systems has raised the pressure on the memory hierarchy. The cost of coherence protocol and the scalability problem of the memory hierarchy is nowadays a major issue. In this paper, a specific data management for read-only data is investigated because these data can be duplicated in several memories without being tracked. Based on analysis of standard benchmarks for embedded systems, this analysis shows that read-only data represent 62% of all the data used by applications and 18% of all the memory accesses. A specific data path for read-only data is then evaluated by using simulations. On the first level of the memory hierarchy, removing read-only data of the L1 cache and placing them in another read-only cache improve the data locality of the read-write data by 30% and decrease the total energy consumption of the first level memory by 5%."
+    }
+  ]
+}

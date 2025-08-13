@@ -2,3 +2,12 @@ requests
 pymupdf
 PyYAML
 tqdm
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+numpy
+streamlit
+openai
+anthropic
+python-dotenv

@@ -1,0 +1,67 @@
+{
+  "timestamp": 1755048862.930549,
+  "papers": [
+    {
+      "id": "1907.02217v1",
+      "title": "FusionAccel: A General Re-configurable Deep Learning Inference\n  Accelerator on FPGA for Convolutional Neural Networks",
+      "summary": "The deep learning accelerator is one of the methods to accelerate deep\nlearning network computations, which is mainly based on convolutional neural\nnetwork acceleration. To address the fact that concurrent convolutional neural\nnetwork accelerators are not solely open-source and the exclusiveness of\nplatforms, FusionAccel, a scalable convolutional neural network accelerator\nhardware architecture with supporting software is proposed. It can adapt to\ndifferent network structures and can be reconstructed before compilation and\nreconfigured at runtime. This paper realizes this RTL convolutional neural\nnetwork accelerator design and functional verifications on a Xilinx Spartan-6\nFPGA. The result is identical to that of Caffe-CPU. Since the entire project is\nbased on RTL, it can be migrated to ASIC after replacing some FPGA-specific\nIPs.",
+      "pdf_url": "https://arxiv.org/pdf/1907.02217v1.pdf",
+      "source": "arxiv",
+      "text": "The deep learning accelerator is one of the methods to accelerate deep\nlearning network computations, which is mainly based on convolutional neural\nnetwork acceleration. To address the fact that concurrent convolutional neural\nnetwork accelerators are not solely open-source and the exclusiveness of\nplatforms, FusionAccel, a scalable convolutional neural network accelerator\nhardware architecture with supporting software is proposed. It can adapt to\ndifferent network structures and can be reconstructed before compilation and\nreconfigured at runtime. This paper realizes this RTL convolutional neural\nnetwork accelerator design and functional verifications on a Xilinx Spartan-6\nFPGA. The result is identical to that of Caffe-CPU. Since the entire project is\nbased on RTL, it can be migrated to ASIC after replacing some FPGA-specific\nIPs."
+    },
+    {
+      "id": "2102.06018v1",
+      "title": "Transparent FPGA Acceleration with TensorFlow",
+      "summary": "Today, artificial neural networks are one of the major innovators pushing the\nprogress of machine learning. This has particularly affected the development of\nneural network accelerating hardware. However, since most of these\narchitectures require specialized toolchains, there is a certain amount of\nadditional effort for developers each time they want to make use of a new deep\nlearning accelerator. Furthermore the flexibility of the device is bound to the\narchitecture itself, as well as to the functionality of the runtime\nenvironment.\n  In this paper we propose a toolflow using TensorFlow as frontend, thus\noffering developers the opportunity of using a familiar environment. On the\nbackend we use an FPGA, which is addressable via an HSA runtime environment. In\nthis way we are able to hide the complexity of controlling new hardware from\nthe user, while at the same time maintaining a high amount of flexibility. This\ncan be achieved by our HSA toolflow, since the hardware is not statically\nconfigured with the structure of the network. Instead, it can be dynamically\nreconfigured during runtime with the respective kernels executed by the network\nand simultaneously from other sources e.g. OpenCL/OpenMP.",
+      "pdf_url": "https://arxiv.org/pdf/2102.06018v1.pdf",
+      "source": "arxiv",
+      "text": "Today, artificial neural networks are one of the major innovators pushing the\nprogress of machine learning. This has particularly affected the development of\nneural network accelerating hardware. However, since most of these\narchitectures require specialized toolchains, there is a certain amount of\nadditional effort for developers each time they want to make use of a new deep\nlearning accelerator. Furthermore the flexibility of the device is bound to the\narchitecture itself, as well as to the functionality of the runtime\nenvironment.\n  In this paper we propose a toolflow using TensorFlow as frontend, thus\noffering developers the opportunity of using a familiar environment. On the\nbackend we use an FPGA, which is addressable via an HSA runtime environment. In\nthis way we are able to hide the complexity of controlling new hardware from\nthe user, while at the same time maintaining a high amount of flexibility. This\ncan be achieved by our HSA toolflow, since the hardware is not statically\nconfigured with the structure of the network. Instead, it can be dynamically\nreconfigured during runtime with the respective kernels executed by the network\nand simultaneously from other sources e.g. OpenCL/OpenMP."
+    },
+    {
+      "id": "c528b8a39a72487093d7337dc07238e9f2efee2b",
+      "title": "Resistive Memory Technology for Deep Neural Network Accelerator Hardware",
+      "summary": null,
+      "pdf_url": "https://www.semanticscholar.org/paper/c528b8a39a72487093d7337dc07238e9f2efee2b",
+      "year": 2024,
+      "authors": [
+        "Wooseok Choi"
+      ],
+      "source": "semantic_scholar",
+      "text": null
+    },
+    {
+      "id": "48061caf02a4368b58f291871e1e5f5dd0de0e8e",
+      "title": "A 28nm 11.2TOPS/W Hardware-Utilization-Aware Neural-Network Accelerator with Dynamic Dataflow",
+      "summary": "With the rapid evolution of AI technology, various neural network structures have been developed for diverse applications. As a typical ease, Fig. 22.4.1 shows that the convolution (Conv) layer used in the convolutional neural networks (CNNs) features distinct shapes and types. Neural network accelerators with high peak energy efficiency have been demonstrated [1\u20134]. However, they usually suffer decreased hardware (mainly multiply-accumulate (MAC) units) utilization for various network structures, which reduces the attainable energy efficiency accordingly. To improve the MAC utilization, the Nvidia deep learning accelerator (NVDLA) [5] applies hardware parallelism along the channel direction, but the MAC utilization is still low for the shallow layers. According to our experiments, NVDLA achieves 23% MAC utilization in the worst case. A Scatter-Gather scheme [4] is utilized to mitigate the utilization drop for shallow layers by rearranging the input features (IF), but the improvement is limited. As depthwise convolution (Dwcv) has been widely used, the accompanying low MAC utilization also needs to be considered. Taking MobileNetV2 as an example, NVDLA only achieves 0.4% utilization for Dwcv. To address these critical issues, this work presents a utilization-aware neural network accelerator, which can dynamically change the level of parallelism along multiple dimensions to maximize the MAC utilization. The chip achieves $> 97.3{\\%}$ MAC utilization on benchmark networks while delivering $4.7\\times$ higher attainable energy efficiency than state-of-the-art designs [1\u20134].",
+      "pdf_url": "https://www.semanticscholar.org/paper/48061caf02a4368b58f291871e1e5f5dd0de0e8e",
+      "year": 2023,
+      "authors": [
+        "Cheng-Yan Du",
+        "Chieh-Fu Tsai",
+        "Wen-Ching Chen",
+        "Liang-Yi Lin",
+        "Nian-Shyang Chang",
+        "Chun-Pin Lin",
+        "Chi-Shi Chen",
+        "Chia-Hsiang Yang"
+      ],
+      "source": "semantic_scholar",
+      "text": "With the rapid evolution of AI technology, various neural network structures have been developed for diverse applications. As a typical ease, Fig. 22.4.1 shows that the convolution (Conv) layer used in the convolutional neural networks (CNNs) features distinct shapes and types. Neural network accelerators with high peak energy efficiency have been demonstrated [1\u20134]. However, they usually suffer decreased hardware (mainly multiply-accumulate (MAC) units) utilization for various network structures, which reduces the attainable energy efficiency accordingly. To improve the MAC utilization, the Nvidia deep learning accelerator (NVDLA) [5] applies hardware parallelism along the channel direction, but the MAC utilization is still low for the shallow layers. According to our experiments, NVDLA achieves 23% MAC utilization in the worst case. A Scatter-Gather scheme [4] is utilized to mitigate the utilization drop for shallow layers by rearranging the input features (IF), but the improvement is limited. As depthwise convolution (Dwcv) has been widely used, the accompanying low MAC utilization also needs to be considered. Taking MobileNetV2 as an example, NVDLA only achieves 0.4% utilization for Dwcv. To address these critical issues, this work presents a utilization-aware neural network accelerator, which can dynamically change the level of parallelism along multiple dimensions to maximize the MAC utilization. The chip achieves $> 97.3{\\%}$ MAC utilization on benchmark networks while delivering $4.7\\times$ higher attainable energy efficiency than state-of-the-art designs [1\u20134]."
+    },
+    {
+      "id": "972f9170f5529aede98853265c74d42d82ca8744",
+      "title": "An Efficient FPGA-based Depthwise Separable Convolutional Neural Network Accelerator with Hardware Pruning",
+      "summary": "Convolutional neural networks (CNNs) have been widely deployed in computer vision tasks. However, the computation and resource intensive characteristics of CNN bring obstacles to its application on embedded systems. This article proposes an efficient inference accelerator on Field Programmable Gate Array (FPGA) for CNNs with depthwise separable convolutions. To improve the accelerator efficiency, we make four contributions: (1) an efficient convolution engine with multiple strategies for exploiting parallelism and a configurable adder tree are designed to support three types of convolution operations; (2) a dedicated architecture combined with input buffers is designed for the bottleneck network structure to reduce data transmission time; (3) a hardware padding scheme to eliminate invalid padding operations is proposed; and (4) a hardware-assisted pruning method is developed to support online tradeoff between model accuracy and power consumption. Experimental results show that for MobileNetV2 the accelerator achieves 10\u00d7 and 6\u00d7 energy efficiency improvement over the CPU and GPU implementation, and 302.3 frames per second and 181.8 GOPS performance that is the best among several existing single-engine accelerators on FPGAs. The proposed hardware-assisted pruning method can effectively reduce 59.7% power consumption at the accuracy loss within 5%.",
+      "pdf_url": "https://www.semanticscholar.org/paper/972f9170f5529aede98853265c74d42d82ca8744",
+      "year": 2023,
+      "authors": [
+        "Zhengyan Liu",
+        "Qiang Liu",
+        "Shun Yan",
+        "Ray C. C. Cheung"
+      ],
+      "source": "semantic_scholar",
+      "text": "Convolutional neural networks (CNNs) have been widely deployed in computer vision tasks. However, the computation and resource intensive characteristics of CNN bring obstacles to its application on embedded systems. This article proposes an efficient inference accelerator on Field Programmable Gate Array (FPGA) for CNNs with depthwise separable convolutions. To improve the accelerator efficiency, we make four contributions: (1) an efficient convolution engine with multiple strategies for exploiting parallelism and a configurable adder tree are designed to support three types of convolution operations; (2) a dedicated architecture combined with input buffers is designed for the bottleneck network structure to reduce data transmission time; (3) a hardware padding scheme to eliminate invalid padding operations is proposed; and (4) a hardware-assisted pruning method is developed to support online tradeoff between model accuracy and power consumption. Experimental results show that for MobileNetV2 the accelerator achieves 10\u00d7 and 6\u00d7 energy efficiency improvement over the CPU and GPU implementation, and 302.3 frames per second and 181.8 GOPS performance that is the best among several existing single-engine accelerators on FPGAs. The proposed hardware-assisted pruning method can effectively reduce 59.7% power consumption at the accuracy loss within 5%."
+    }
+  ]
+}
