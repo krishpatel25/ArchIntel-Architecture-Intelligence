@@ -3,3 +3,6 @@ __pycache__/
 .env
 data/papers/*
 data/extract/*
+data/index/*.pkl
+data/index/*.index
+data/index/*.json
